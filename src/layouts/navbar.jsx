@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 import { CircleUser, Menu } from "lucide-react";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
-import storeLogo from "../../public/images/store-logo.png";
+import storeLogo from "@/public/images/store-logo.png";
 
 const Layout = () => {
   return (
