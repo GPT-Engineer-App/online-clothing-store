@@ -33,7 +33,7 @@ const ProductListing = () => {
 
   return (
     <TooltipProvider>
-      <div className="container mx-auto p-4" style={{ backgroundImage: `url(${shopBackground})` }}>
+      <div className="container mx-auto p-4 bg-shop-background">
         <header className="flex justify-between items-center mb-4">
           <h1 className="text-2xl font-bold">Shop</h1>
           <Input placeholder="Search products..." className="w-1/3" value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} />
