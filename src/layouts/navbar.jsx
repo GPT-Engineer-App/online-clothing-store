@@ -10,7 +10,7 @@ import {
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";
 import { CircleUser, Menu } from "lucide-react";
-import storeLogo from "@/public/images/store-logo.png"; // Ensure the import statement for the store logo image is correct
+import storeLogo from "@/public/images/store-logo.png";
 import { NavLink, Outlet } from "react-router-dom";
 import { navItems } from "../App";
 
@@ -35,7 +35,7 @@ const DesktopNav = () => (
       to="/"
       className="flex items-center gap-2 text-lg font-semibold md:text-base"
     >
-      <img src={storeLogo} alt="Store Logo" className="h-6 w-6" /> {/* Replace the Package2 icon with an img element displaying the store logo */}
+      <img src={storeLogo} alt="Store Logo" className="h-6 w-6" />
       <span className="sr-only">Smuvia</span>
     </NavItem>
     {navItems.map((item) => (
@@ -60,7 +60,7 @@ const MobileNav = () => (
           to="/"
           className="flex items-center gap-2 text-lg font-semibold"
         >
-          <img src={storeLogo} alt="Store Logo" className="h-6 w-6" /> {/* Replace the Package2 icon with an img element displaying the store logo */}
+          <img src={storeLogo} alt="Store Logo" className="h-6 w-6" />
           <span className="sr-only">Smuvia</span>
         </NavItem>
         {navItems.map((item) => (
