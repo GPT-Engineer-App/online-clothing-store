@@ -75,42 +75,6 @@
 }
 
 @layer components {
-  .btn {
-    @apply transition-all duration-300 ease-in-out;
-  }
-
-  .btn:hover {
-    @apply bg-vibrant-primary text-white;
-  }
-
-  .card {
-    @apply transition-transform duration-300 ease-in-out;
-  }
-
-  .card:hover {
-    @apply transform scale-105;
-  }
-
-  .tooltip {
-    @apply bg-vibrant-secondary text-white p-2 rounded;
-  }
-
-  .modal {
-    @apply bg-vibrant-accent text-white p-4 rounded;
-  }
-
-  .bg-vibrant-primary {
-    @apply bg-red-500;
-  }
-
-  .bg-vibrant-secondary {
-    @apply bg-yellow-500;
-  }
-
-  .bg-vibrant-accent {
-    @apply bg-blue-500;
-  }
-
   .bg-shop-background {
     background-image: url('/images/shop-background.jpg');
     background-size: cover;
