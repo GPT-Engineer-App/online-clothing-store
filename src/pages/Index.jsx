@@ -4,7 +4,7 @@ const Index = () => {
   return (
     <div className="text-center">
       <header className="flex justify-between items-center mb-4">
-        <h1 className="text-3xl font-bold">Welcome to Our Store</h1>
+        <h1 className="text-3xl font-bold">Welcome to Smuvia</h1>
         <Button variant="outline" size="lg">
           Shop Now
         </Button>
@@ -45,7 +45,7 @@ const Index = () => {
           </div>
           <div>
             <h4 className="text-lg font-semibold">Contact Us</h4>
-            <p className="text-muted-foreground">Email: contact@store.com</p>
+            <p className="text-muted-foreground">Email: contact@smuvia.com</p>
           </div>
         </div>
       </footer>
