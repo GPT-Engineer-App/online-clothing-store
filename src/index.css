@@ -110,4 +110,13 @@
   .bg-vibrant-accent {
     @apply bg-blue-500;
   }
+
+  /* Add the following CSS to style the shop background */
+  .bg-shop-background {
+    background-image: url('/images/shop-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Adjust text color for readability */
+  }
 }
