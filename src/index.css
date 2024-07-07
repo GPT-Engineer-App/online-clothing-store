@@ -98,4 +98,16 @@
   .modal {
     @apply bg-vibrant-accent text-white p-4 rounded;
   }
+
+  .bg-vibrant-primary {
+    @apply bg-red-500;
+  }
+
+  .bg-vibrant-secondary {
+    @apply bg-yellow-500;
+  }
+
+  .bg-vibrant-accent {
+    @apply bg-blue-500;
+  }
 }
